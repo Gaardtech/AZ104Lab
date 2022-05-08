@@ -130,6 +130,7 @@
                 "osProfile": {
                     "computerName": "[parameters('virtualMachines_Lab_win11_name')]",
                     "adminUsername": "Ian",
+                    "adminPassword": "LabPassword1!",
                     "windowsConfiguration": {
                         "provisionVMAgent": true,
                         "enableAutomaticUpdates": true,
@@ -140,7 +141,7 @@
                         }
                     },
                     "secrets": [],
-                    "allowExtensionOperations": true,
+                    "allowExtensionOperations": true
                     
                 },
                 "networkProfile": {
